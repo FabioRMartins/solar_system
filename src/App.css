@@ -1,3 +1,60 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-container {
+  background: url('./images/foto.jpg');
+  background-size: contain;
   text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 5px 1px 30px rgb(255, 248, 243);
+
+}
+
+h2 {
+  border-radius: 30px;
+  font-size: 3rem;
+  margin: 50px auto;
+  text-align: center;
+  text-shadow: 5px 1px 30px rgb(255, 248, 243);
+  width: 70%;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-title {
+  align-items: center;
+  color: aliceblue;
+}
+
+.planets {
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.planet-list {
+  color: aliceblue;
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  text-shadow: 5px 1px 30px rgb(255, 248, 243);
+}
+
+
+.missions {
+  color: aliceblue;
 }
